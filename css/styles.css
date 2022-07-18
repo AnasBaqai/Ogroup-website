@@ -1,0 +1,242 @@
+body{
+   
+    font-family: "Roboto";
+}
+#title{
+    background-color: #15133C;
+    color: #fff;
+    padding: 7% 15% 5% 15%;
+    text-align: left;
+    
+
+    /* background-image: url("https://media.freestocktextures.com/cache/1f/68/1f680ffb031f7614e17b4c136d2172d8.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+}
+.logo{
+    margin: 0 5% 5% 30%;
+    
+    border-radius: 10%;
+}
+.navbar{
+    margin: 0 10% 5% 0;
+    text-align: left;
+
+}
+.children{
+    margin-bottom: 0;
+    width:30rem;
+    filter: drop-shadow(0 0 0.2rem #ABC9FF);
+
+}
+.intro-text{
+    line-height: 2;
+    color: #D3DEDC;
+}
+
+.big-heading{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: "montserrat";
+    margin: 3rem 0;
+ 
+}
+
+.promo-button{
+    margin: 10% 5%;
+    border-radius: 20%;
+    filter: drop-shadow(0 0 0.2rem #ABC9FF);
+   
+}
+
+.quote{
+    float: right;
+    position: absolute;
+    right: 40px;
+    top: 95%;
+
+}
+.icons {
+    color: #15133C;
+    padding: 2% 2%;
+    margin: 0 auto;
+    display: block;
+    filter: drop-shadow(0 0 0.2rem #000);
+}
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    margin-top: 5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #EEEEEE;
+
+    text-shadow: 3px 0 #ABC9FF;
+    
+}
+
+aside > p {
+    margin: .5rem;
+    
+}
+
+#middle{
+    /* background-image: url("https://media.freestocktextures.com/cache/55/3e/553edc06543d0e2688045da7b36857fb.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+    background-color: #ABC9FF;
+    padding: 10% 5% 15%;
+    text-align: center;
+    
+}
+.middle-container{
+    width: 70%;
+    margin: 0 auto 0 auto;
+    background-color:#205375;
+    border-radius: 100%;
+    padding: 7% 15%;
+   text-align: left;
+    border: 1px solid;
+    filter: drop-shadow(0 0 0.2rem #000);
+}
+.mid-heading{
+    color: #15133C;
+    text-shadow: 3px 0 white;
+}
+.why-us{
+    display: block;
+    margin: 2% auto 5%;
+    height: 15rem;
+}
+
+.points{
+    line-height: 2;
+    color: wheat;
+    font-size: 16px;
+}
+
+#detail{
+    background-color:#205375;
+    text-align: center;
+    
+    padding: 2% 7%;
+}
+
+.row .icons{
+    color:#EEEEEE;
+    
+    margin: 2% 2% 5%;
+}
+#detail ul{
+    text-align: left;
+}
+
+.feature-box {
+    padding: 5% 5%;
+    border: 1px solid;
+
+}
+
+.card {
+    border: 1px solid;
+    filter: drop-shadow(0 0 1rem #000);
+    /* background-color: #EEEEEE; */
+    background-color: #D3DEDC;
+    text-shadow: 1px 0 #232931;
+}
+
+
+.cd {
+    padding: 3% 2%;
+
+}
+.feature-title{
+    font-size: 3rem;
+}
+.maps{
+    border: none;
+    background-color: #D3DEDC;
+}
+.maps .icons{
+    color: #205375;
+    
+}
+.maps .icons:hover{
+    color:white;
+    filter: drop-shadow(1rem 1rem 0.5rem #000);
+    
+}
+
+
+#footer {
+    padding: 2% 2%;
+    text-align: center;
+
+}
+
+.footer-links {
+    margin: 30px 10px;
+
+}
+.hidden{
+    visibility: hidden;
+    position: absolute;
+}
+.visible{
+    visibility: visible;
+}
+
+
+@media (max-width: 1150px){
+    .logo{
+        margin: 5% 2%;
+    }
+    #title{
+        text-align: center;
+    }
+    aside{
+        float: none;
+        width: 100%;
+    }
+    .quote{
+        position: static;
+        float: none;
+    }
+    .children{
+        width: 20rem;
+    }
+    .big-heading{
+        font-size: 2rem;
+    }
+    #detail{
+        padding: 7% 15%;
+    }
+    .hidden{
+        visibility: visible;
+        position: static;
+    }
+    .visible{
+        visibility: hidden;
+        position: visible;
+        
+    }
+
+    .middle-container{
+        width: 100%;
+        
+
+    }
+    .why-us{
+        width: 10rem;
+        height: 10rem;
+    }
+   .points{
+    line-height: 1.5;
+   }
+}
+
+
+
+ 
