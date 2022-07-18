@@ -184,7 +184,7 @@ aside > p {
     visibility: hidden;
     position: absolute;
 }
-.visible{
+.vis{
     visibility: visible;
 }
 
@@ -217,9 +217,9 @@ aside > p {
         visibility: visible;
         position: static;
     }
-    .visible{
+    .vis{
         visibility: hidden;
-        position: visible;
+        position: absolute;
         
     }
 
@@ -234,6 +234,7 @@ aside > p {
     }
    .points{
     line-height: 1.5;
+    font-size:0.9rem ;
    }
 }
 
